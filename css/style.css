@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+
+  color: #222;
+}
+
+.layout {
+  display: flex;
+
+  min-height: 100vh;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 300px;
+
+  background: white;
+
+  padding: 25px;
+
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h1 {
+  margin-bottom: 25px;
+}
+
+.sidebar input {
+  width: 100%;
+
+  padding: 12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.categories button {
+  padding: 12px;
+}

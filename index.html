@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Product Book | Бани</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <h1>Product Book</h1>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Поиск бани..."
+      >
+
+      <div class="categories">
+
+        <button onclick="filterCategory('Все')">
+          Все
+        </button>
+
+        <button onclick="filterCategory('Дачные')">
+          Дачные
+        </button>
+
+        <button onclick="filterCategory('Комфорт')">
+          Комфорт
+        </button>
+
+        <button onclick="filterCategory('Баня-Дом')">
+          Баня-Дом
+        </button>
+
+      </div>
+
+    </aside>
+
+
+    <!-- CONTENT -->
+    <main class="content">
+
+      <!-- СПИСОК БАНЬ -->
+      <section class="products-section">
+
+        <h2>Каталог бань</h2>
+
+        <div id="productsContainer" class="products-grid"></div>
+
+      </section>
+
+
+      <!-- ИНФОРМАЦИЯ -->
+      <section class="details-section">
+
+        <h2>Информация о проекте</h2>
+
+        <div id="productDetails">
+
+          <p>Выберите баню из каталога.</p>
+
+        </div>
+
+      </section>
+
+    </main>
+</html>
